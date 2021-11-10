@@ -7,6 +7,10 @@ import {
 
 import Navbar from './components/Navbar';
 import './App.css';
+import Home from './components/pages/Home';
+import Services from './components/pages/Services';
+import Products from './components/pages/Products';
+import SignUp from './components/pages/SignUp';
 
 const App = () => {
   return (
@@ -14,9 +18,10 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" />
-          {/* <Route path="/" element={<LandingPage />} /> */}
-          {/* <Route path="/services" element={() => <div>Services</div>} /> */}
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/sign-up" element={<SignUp />} />
         </Routes>
       </BrowserRouter>
     </div>
