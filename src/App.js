@@ -5,12 +5,9 @@ import {
   Route,
 } from "react-router-dom";
 
-import Navbar from './components/Navbar';
 import './App.css';
-import Home from './components/pages/Home';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
+import { Navbar } from './components';
+import { Home, Services, Products, SignUp} from './components/pages';
 
 const App = () => {
   return (

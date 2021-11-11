@@ -1,12 +1,15 @@
 import React from 'react';
-import CardItem from './CardItem';
+
+import { CardItem } from './index';
 import './Cards.css';
 
-import travelImage from '../assets/images/img-9.jpg';
-import islandImage from '../assets/images/img-2.jpg';
-import oceanImage from '../assets/images/img-3.jpg';
-import stadiumImage from '../assets/images/img-4.jpg';
-import safariImage from '../assets/images/img-8.jpg';
+import { 
+    travelImage, 
+    islandImage, 
+    oceanImage, 
+    stadiumImage, 
+    safariImage
+} from './index';
 
 const Cards = () => {
     return (
