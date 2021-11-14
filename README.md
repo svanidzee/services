@@ -1,11 +1,8 @@
-# https://epic-lumiere-ffce04.netlify.app
-
 ### Stack:
-- ReactJS 
-- Redux
+- ReactJS + React Hooks 
 - React Context API
 - React Router
-- Material-ui
+- css
 
 ### live preview
 - https://epic-lumiere-ffce04.netlify.app
