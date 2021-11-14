@@ -2,7 +2,7 @@
 - ReactJS + React Hooks 
 - React Context API
 - React Router
-- Css
+- CSS
 
 ### live preview
 - https://epic-lumiere-ffce04.netlify.app
